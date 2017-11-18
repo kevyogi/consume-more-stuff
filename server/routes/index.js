@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const users = require('./users');
+const users = require('./Users');
 const items = require('./Items');
-const categories = require('./categories');
+const categories = require('./Categories');
 const statuses = require('./statuses');
 const conditions = require('./conditions');
 
